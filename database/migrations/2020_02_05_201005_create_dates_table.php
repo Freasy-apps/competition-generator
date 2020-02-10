@@ -18,6 +18,7 @@ class CreateDatesTable extends Migration
             $table->unsignedBigInteger('event_id');
 
             $table->date('date');
+            $table->integer('tables')->default(1);
 
             $table->timestamps();
 
