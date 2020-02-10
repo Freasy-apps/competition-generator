@@ -11,4 +11,5 @@
 |
 */
 
-Route::get('/', 'TestController');
+Route::get('/', 'DashboardController');
+Route::get('/new-merwestad', 'MerwestadCompetitieController');
